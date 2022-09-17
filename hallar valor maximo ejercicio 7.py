@@ -1,10 +1,10 @@
 #-------------------------------------------------------------------------------
-# Name:        module2
+# Name:        module1
 # Purpose:
 #
 # Author:      Usuario
 #
-# Created:     07/09/2022
+# Created:     17/09/2022
 # Copyright:   (c) Usuario 2022
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
@@ -21,8 +21,8 @@ def valor_mayor(lista):
         if lista[i] > mayor:
             mayor = lista[i]
     return mayor
-print (valor_mayor(numeros))
 
+print(valor_mayor(numeros))
 
 if __name__ == '__main__':
     main()
